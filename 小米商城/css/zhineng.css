@@ -1,0 +1,122 @@
+.zhineng{
+	width: 100%;
+	height:686px;
+}
+.zhineng-1{
+	width: 1226px;
+	height:58px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.zhineng-1>.title{
+	width: 70px;
+	height: 58px;
+	text-align: center;
+	margin:8px 0;
+}
+.title-right2{
+	width: 300px;
+	height: 58px;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+}
+.title-right2>ul{
+	width: 300px;
+	height: 58px;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	margin: 0 ;
+}
+.zhineng .list2{
+	list-style: none;
+	height: 58px;
+	line-height: 58px;
+	margin: 0;
+	font-size: 16px;
+	border-bottom: 2px solid transparent;
+}
+.zhineng .list2:hover{
+	color:#ff6700;
+	border-bottom: 2px solid #ff6700;
+	cursor: pointer;
+}
+.zhineng-2{
+	width: 1226px;
+	height:600px;
+	display: flex;
+}
+.zhineng-left{
+	width: 245px;
+	height: 600px;
+	margin: 0 0 0 28px;
+}
+.zhineng-left>img{
+	width: 240px;
+	height: 290px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+.zhineng-right{
+	width:960px;
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.zhineng-right>ul{
+	width:960px;
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	text-align: center;
+}
+.zhineng-right>ul>li{
+	width: 230px;
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+.zhineng-right>ul>li:hover{
+	transform: translate(-5px, -2px);
+	box-shadow: 0 0 30px lightgray;
+}
+.zhineng-right>ul>li>span{
+	width: 64px;
+	height: 20px;
+	margin: 0 auto;
+	line-height: 20px;
+	padding-bottom: 15px;
+	background-color: firebrick;
+	color: white;
+	}
+.zhineng-right img{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+	padding-right: 5px;
+	border: 1px lightgary solid;
+}
+/* .zhineng-right img:hover{
+	box-shadow:  2 2 50px lightgray;
+	cursor: pointer;
+	transform: translate(0 ,-5px);
+} */
+.zhineng-right>ul a{
+	width: 214px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 24px;
+	padding-bottom: 15px;
+}
+.zhineng-right>ul p{
+	width: 214px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 24px;
+	color:darkorange;
+}

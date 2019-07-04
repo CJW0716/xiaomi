@@ -1,0 +1,95 @@
+.footer{
+	 width: 100%;
+	 background-color: white;
+	 height: 300px;
+ }
+.last-head{
+	 width: 1226px;
+	 margin: 0 auto;
+	 height: 80px;
+	 border-bottom: 1px rgb(224, 224, 224) solid;
+ }
+.five{
+	 width: 1226px;
+	 font-size: 15px;
+	 
+ }
+.five>ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin: 20px 0;
+	
+}
+.five>ul>li{
+	text-align: center;
+	width: 230px;
+	float: left;
+}
+.five>ul>li>a{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+.five>ul>li>a>img{
+	width: 20px;
+}
+.line{
+	border-right: 1px rgb(224, 224, 224) solid;
+}
+.five>ul>li>a:hover{
+	color: orangered;
+}
+.foot-list{
+	width: 1226px;
+	height: 150px;
+	margin: 20px auto;
+	display: block;
+	padding-left: 20px;
+}
+.foot-list>dl{
+	width: 150px;
+	float: left;
+	display: block;
+}
+.foot-list>dl>dt{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.foot-list>dl>dd{
+	font-size: 16px;
+	margin-left: 0;
+	margin-top: 20px;
+}
+.foot-list>dl>dd>a{
+	text-decoration: none;
+	color: gray;
+}
+.last-dl{
+	border-right: 1px rgb(224, 224, 224) solid;
+}
+.foot-right{
+	display: inline-block;
+	text-align: center;
+	height: 150px;
+	width: 180px;
+	font-size: 12px;
+	margin: 16px auto;
+}
+.phone{
+	font-size: 20px;
+	color: orange;
+	margin: 0;
+	text-align: center;
+}
+.foot-right img{
+	width: 80px;
+}
+.foot-list dd>a:hover{
+	color: orangered;
+	cursor: pointer;
+}
+/* .foot-right a:hover{
+	background-color: orangered;
+	color: white;
+} */

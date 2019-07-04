@@ -1,0 +1,71 @@
+/*<!-- 轮播图下方一排小图 -->*/
+.home-service-list {
+	width: 1200px;
+	height: 170px;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+
+.iconfont-list {
+	width: 235px;
+	background: #5f5750;
+	float: left;
+	height: 170px;
+}
+
+.iconfont-list ul {
+	padding: 3px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.channel-list li {
+	position: relative;
+	width: 70px;
+	height: 82px;
+	float: left;
+	text-align: center;
+	padding: 0 3px;
+}
+.channel-list a {
+	display: block;
+	color: rgba(255, 255, 255, 0.7);
+	padding-top: 18px;
+	text-decoration: none;
+}
+
+.channel-list a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.channel-list img {
+	display: block;
+	font-size: 24px;
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 6px;
+	margin: 0 auto;
+}
+
+.img1List {
+	width: 965px;
+	float: left;
+}
+
+.img1_ul {
+	margin: 0;
+	padding: 0;
+}
+
+.img1_ul img {
+	width: 311px;
+	height: 170px;
+}
+
+.img1_ul li {
+	float: left;
+	width: 311px;
+	height: 170px;
+	margin-left: 10.6px;
+}
